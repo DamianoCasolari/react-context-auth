@@ -1,6 +1,8 @@
 @import url('./partials/_header.css');
 @import url('./partials/_main.css');
 @import url('./partials/_footer.css');
+@import url('./partials/_loginPage.css');
+@import url('./partials/_utilities.css');
 
 @tailwind base;
 @tailwind components;

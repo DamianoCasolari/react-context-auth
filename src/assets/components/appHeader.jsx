@@ -11,10 +11,15 @@ export function AppHeader() {
             className="h-100 me-2 heaven_drop_shadow"
           />
           <nav>
-            <NavLink className="pe-4" to="/">
+            <NavLink className="me-4 pb-2" to="/">
               Home
             </NavLink>
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink className="me-4 pb-2" to="/blog">
+              Blog
+            </NavLink>
+            <NavLink className="pb-2" to="/auth">
+              Login
+            </NavLink>
           </nav>
         </div>
       </header>
